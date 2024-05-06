@@ -4,7 +4,8 @@ function stringChop(str, size) {
   if(str == "")
   {
       return arr;
-  } else{
+  } 
+  else{
    
       while(str.length > size) {
         arr.push(str.slice(0, size));
